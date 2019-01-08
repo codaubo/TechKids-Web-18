@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Input</title>
+</head>
+<body>
+    <textarea cols=100 rows=20 onkeyup="change(this);" maxlength="200"></textarea>
+    <span id="char_cnt">0</span> / <span id="chars_left">200</span>
+    <script type="text/javascript">
+        function change (chars) {
+            var maxlength = 200;
+            document.getElementById('char_cnt').innerHTML = chars.value.length;
+            document.getElementById('chars_left').innerHTML = maxlength - chars.value.length;
+            return true;
+        }
+        </script>
+</body>
+</html>
