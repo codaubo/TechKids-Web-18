@@ -1,0 +1,33 @@
+.masthead{
+    background-image: url("img/bg-masthead.jpg");
+    height: 594px;
+    background-position: center center;
+}
+.header{
+    position:relative;
+    top:200px;
+}
+@media (min-width: 768px){
+header.masthead h1 {
+    font-size: 2.9rem;
+}
+}
+.features-icons{
+    height: 453px;
+}
+.features-icons-icon{
+    font-size: 3.5rem;
+}
+.feature{
+    position:relative;
+    top:140px;
+}
+.features-icons-icon :hover{
+    transform: scale(1.2, 1.2);
+}
+.no-gutters{
+    height: 480px;
+}
+.showcase-text{
+    align-items: center;
+}
