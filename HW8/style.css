@@ -1,33 +1,55 @@
 .masthead{
     background-image: url("img/bg-masthead.jpg");
-    height: 594px;
+    background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
+    padding: 10.5%;
 }
-.header{
-    position:relative;
-    top:200px;
-}
-@media (min-width: 768px){
+@media screen and (min-width: 768px){
 header.masthead h1 {
     font-size: 2.9rem;
+    }
 }
+@media screen and (max-width: 768px){
+    header.masthead h1 {
+        font-size: 2rem;
+    }
 }
 .features-icons{
-    height: 453px;
+    padding: 8%;
 }
 .features-icons-icon{
     font-size: 3.5rem;
 }
-.feature{
-    position:relative;
-    top:140px;
-}
 .features-icons-icon :hover{
     transform: scale(1.2, 1.2);
 }
-.no-gutters{
-    height: 480px;
+.showcase-img{
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.showcase-text{
-    align-items: center;
+.img-fluid{
+    width: 192px;
+    height: 192px;
+    box-shadow: 0 5px 5px 0 #adb5bd;
+}
+.testimonials{
+    padding: 6%;
+}
+.showcase .showcase-text{
+    padding: 9%;
+}
+
+.showcase-text h2{
+    font-weight: 600;
+}
+.call-to-action{
+    padding: 6%;
+    background-image: url("img/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.footer{
+    padding: 3.5%;
 }
