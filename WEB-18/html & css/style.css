@@ -1,0 +1,42 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	color: #ff0000;
+	background: url("https://znews-photo.zadn.vn/w660/Uploaded/ohunua2/2018_02_24/14504835_310918849274454_2855615938546368512_n.jpg");
+	background-color: #cecece;
+}
+
+ul li {
+	color: purple;
+}
+
+li {
+	color: red;
+}
+
+ul > li {
+	color: aqua;
+}
+
+.text-red {
+	color: red;
+}
+
+.text-blue {
+	color: blue;
+}
+
+img {
+    width: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.5s linear 0.2s;
+}
+
+img:hover {
+	transform: rotate(90deg);
+}

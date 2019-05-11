@@ -1,0 +1,41 @@
+header h1 {
+    margin: 50px 0 30px;
+    border-bottom: 2px solid #cecece;
+}
+
+.main {
+    padding: 0 0 40px;
+}
+
+.table_score thead > tr:first-child th {
+    background: transparent;
+    color: #212529;
+    border: none;
+}
+
+.table_score thead > tr:nth-child(2) th {
+    background: #dc3545;
+    border: none;
+}
+
+.table_score input {
+    width: 5em;
+}
+
+.table_score tbody > tr:last-child td,
+.table_score tbody > tr:last-child th {
+    border-bottom: 1px solid #dc3545;
+}
+
+.table_score  tbody > tr > th > span {
+    opacity: 0;
+    transition: all .2s linear;
+}
+
+.table_score  tbody > tr.invalid > th > span {
+    opacity: 1;
+}
+
+.table_score  tbody > tr.invalid {
+    color: #dc3545;
+}
